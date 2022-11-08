@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Town Weather</title>
+   <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div id="main-container">
+        <header>
+          <form>
+            <div class="form-group">
+              
+              <input type="text" placeholder=""  value="City, Country Code" /> 
+              <button id="submit">Submit</button>
+              <br />
+              <span class="error-msg"></span>
+            </div>
+          </form>
+        </header>
+        <div class="main-weather-display info">
+          <div class="general-info">
+            <h1 class="location">City, Country</h1>
+            <span class="degrees">T</span>
+            <p id="time"></p>
+          </div>
+          <div class="weather-details info">
+            <p class="condition">Average Status</p>
+            <p class="feels-like">IT FEELS: ** &#8457;</p>
+            <p class="wind-mph">WIND:  ** MPH</p>
+            <p class="humidity">HUMIDITY: ** </p>
+          </div>
+        </div>
+      </div>
+      <div>
+          <footer>Copyright © & Designed by Abderrahmane</footer> 
+       </div>
+    <script src="myapp.js"></script>
+</body>
+</html>
